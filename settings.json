@@ -1,18 +1,18 @@
 {
-  "name": "AFK Bot",
+  "name": "AFK_Bot_Content",
   "bot-account": {
     "username": "Slobot00",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "pvptekken.mcsh.io",
+    "ip": "hamugang.mcsh.io",
     "port": 25565,
-    "version": "",
+    "version": "1.21.1",
     "try-creative": false
   },
   "position": {
-    "enabled": true,
+    "enabled": false,
     "x": 0,
     "y": 100,
     "z": 0
@@ -20,7 +20,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "chalol78"
+      "password": "034856"
     },
     "anti-afk": {
       "enabled": true,
@@ -29,10 +29,10 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 180,
       "messages": [
         "I'm a regular player",
-        "Subscribe to Slobos!",
+        "Staying online to keep server up!",
         "I like to play Minecraft!"
       ]
     },
@@ -45,16 +45,16 @@
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
-      "speed": 3000
+      "radius": 2,
+      "speed": 2000
     },
     "look-around": {
       "enabled": true,
-      "interval": 5000
+      "interval": 4000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 5000
     }
   },
   "modules": {
