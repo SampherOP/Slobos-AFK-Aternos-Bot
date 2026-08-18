@@ -1,0 +1,27 @@
+name: 24-7 Minecraft AFK Bot Loop
+
+on:
+  push:
+    branches: [ "main" ]
+  schedule:
+    - cron: '*/15 * * * *' # Har 15 minute baad automatic check karega agar bot band ho
+  workflow_dispatch: # Manual start karne ke liye button
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js Cloud Environment
+      uses: actions/setup-node@v4
+      with:
+        node-size: '20'
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Run 24-7 AFK Bot Cloud Process
+      run: |
+        timeout 350m node index.js || true
