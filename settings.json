@@ -1,14 +1,14 @@
 {
   "name": "AFK_Bot_Content",
   "bot-account": {
-    "username": "Slobot",
+    "username": "Slobot1",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "hamugang.mcsh.io",
+    "ip": "hamugangff.falix.gg",
     "port": 25565,
-    "version": "1.21.1",
+    "version": "1.21.11",
     "try-creative": false
   },
   "position": {
