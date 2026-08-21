@@ -6,9 +6,9 @@
     "type": "offline"
   },
   "server": {
-    "ip": "hamugangff.falix.gg",
+    "ip": "hamugjas.mcsh.io",
     "port": 25565,
-    "version": "1.21.11",
+    "version": "1.21.1",
     "try-creative": false
   },
   "position": {
