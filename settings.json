@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "hamugang.mcsh.io",
+    "ip": "lifestealhg.mcsh.io",
     "port": 25565,
     "version": "1.21.1",
     "try-creative": false
