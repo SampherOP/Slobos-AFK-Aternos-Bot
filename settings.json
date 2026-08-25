@@ -1,12 +1,12 @@
 {
   "name": "AFK_Bot_Content",
   "bot-account": {
-    "username": "Slobo",
+    "username": "Slobgo",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "hamugjas.mcsh.io",
+    "ip": "hamugang.mcsh.io",
     "port": 25565,
     "version": "1.21.1",
     "try-creative": false
